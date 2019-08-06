@@ -91,10 +91,20 @@ padding-left: 40px;
 .fa-css3 {
   color: #2163af;
 }
+.fa-adobe {
+  color: #ff0000;
+}
+
+.fa-github {
+  color: #6e5494;
+}
 
 .fa-code, .fa-bold, .fa-css3 {
   font-size: 4em;
   margin: 1rem;
+}
+.fa-trello {
+  color: #007AC0;
 }
 
 .fun {
