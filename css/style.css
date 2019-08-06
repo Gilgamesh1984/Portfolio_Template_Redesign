@@ -5,6 +5,7 @@ html, body {
   width: 100%;
   font-family: "Lato" , sans-serif;
   color: #222;
+  background-color: #D3D3D3;
 }
 .navbar {
   text-transform: uppercase;
@@ -151,6 +152,7 @@ padding-left: 40px;
 .card {
   margin-bottom: 25px !important;
   padding: 10px;
+  background-color:whitesmoke;
 }
 
 .card-block {
