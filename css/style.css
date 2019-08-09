@@ -5,7 +5,7 @@ html, body {
   width: 100%;
   font-family: "Lato" , sans-serif;
   color: #222;
-  background-color: #D3D3D3;
+  background-color: #FFFFFF;
 }
 .navbar {
   text-transform: uppercase;
@@ -58,6 +58,13 @@ height: 100%;
     border: 5px solid green;
     border-color: green;
 }
+/*AFFECT PROTOTYPE BUTTONS LATER
+
+.btn-outline-secondary:hover {
+    color: green;
+    border: 5px solid green;
+    border-color: green;
+}*/
 .jumbotron {
   padding:1rem;
   border-radius: 0;
@@ -152,7 +159,9 @@ padding-left: 40px;
 .card {
   margin-bottom: 25px !important;
   padding: 10px;
+  height: 480px;
   background-color:whitesmoke;
+  display: flex;
 }
 
 .card-block {
@@ -160,7 +169,7 @@ padding-left: 40px;
     padding: 1.25rem;
 }
 .card-body {
-    max-height: 250px;
+   /* max-height: 250px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
