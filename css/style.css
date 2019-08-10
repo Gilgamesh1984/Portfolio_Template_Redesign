@@ -43,6 +43,21 @@ height: 100%;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
+/*SECOND CAROUSEL TEST*/
+.hero-text {
+  display: block;
+  max-width: 900px;
+  text-align: center;
+  position: relative;
+  top: 40vh;
+  z-index: 100;
+  margin: auto;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+
+}
+
 .btn-primary {
   background-color: #6648B1;
   border: 1px solid #6648B1;
