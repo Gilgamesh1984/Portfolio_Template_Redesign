@@ -65,6 +65,7 @@ height: 100%;
 .btn-primary:hover {
   background-color: #563d7C;
   border: 1px solid #563d7C;
+  cursor: pointer;
 }
 .btn-outline-secondary {
     color: black;
