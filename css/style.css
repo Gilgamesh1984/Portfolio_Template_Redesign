@@ -216,7 +216,7 @@ hr.light-100 {
 
 
 .carousel-caption h3 {
-  font-size: 110%;
+  font-size: 2em;
 }
 .carousel-caption .btn {
   font-size: 1.4em;
@@ -265,20 +265,20 @@ blockquote .svg-inline--fa {
       top: 45%;
     }
     .carousel-caption h1 {
-      font-size: 350%;
+      font-size: 3.5em;
     }
     .carousel-caption h3 {
-      font-size: 140%;
+      font-size: 1.4em;
       font-weight: 400;
       padding-bottom: .2rem;
     }
     .carousel-caption .btn {
-      font-size: 95%;
+      font-size: .95em;
       padding: 8px 14px;
     }
 
     .display-4 {
-      font-size: 200%;
+      font-size: 2em;
     }
     .social a {
       font-size: 2.5em;
@@ -287,10 +287,10 @@ blockquote .svg-inline--fa {
 }
 @media (max-width: 576px) {
     .carousel-caption {
-  top: 40%;
+  top: .4em;
     }
   .carousel-caption h1 {
-  font-size: 250%;
+  font-size: 2.5em;
 }
 
 
