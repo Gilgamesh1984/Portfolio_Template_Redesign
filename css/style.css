@@ -219,9 +219,11 @@ hr.light-100 {
   font-size: 110%;
 }
 .carousel-caption .btn {
-  font-size: 90%;
-  padding: 4px 8px;
+  font-size: 1.4em;
+  padding: 10px 14px;
+  margin: 0px 15px;
 }
+
 .carousel-indicators {
   display: none;
 }
@@ -274,6 +276,7 @@ blockquote .svg-inline--fa {
       font-size: 95%;
       padding: 8px 14px;
     }
+
     .display-4 {
       font-size: 200%;
     }
