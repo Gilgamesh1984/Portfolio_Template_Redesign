@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,700&display=swap');
 
 html, body {
   height: 100%;
   width: 100%;
-  font-family: "Lato" , sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #222;
   background-color: #FFFFFF;
+}
+p {
+  font-family: 'Merriweather', serif;
 }
 .navbar {
   text-transform: uppercase;
