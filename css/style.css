@@ -377,9 +377,9 @@ blockquote .svg-inline--fa {
 }
 }
 @media (max-width: 576px) {
-    .carousel-caption {
-  /*top: .4em;*/
-    }
+    /*.carousel-caption {
+  top: .4em;
+    }*/
   .carousel-caption h1 {
   font-size: 2.5em;
 }
