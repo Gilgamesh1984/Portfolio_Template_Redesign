@@ -85,6 +85,8 @@ height: 100%;
 .jumbotron {
   padding:1rem;
   border-radius: 0;
+  background-image: url("img/.vb-jumbotron");
+  background-size: cover;
 }
 .padding {
   padding-bottom: 2rem;
@@ -252,67 +254,14 @@ blockquote .svg-inline--fa {
 .clients-hr {
     border-top: .5rem solid #1bbea3;
 }
-/*FAILED IMAGE GRID ATTEMPT 1*/
+/*This was a lost styling for h5*/
 /*
-.img-grid {
-       box-sizing: border-box;
-       object-fit: contain;
-   }
-      
-   body {
-   background-color: #AAA;
-   margin: 50px;
-   }
-
-   .item {
-   /* Center the contents of the grid items, making each grid item a Flex Container */
-   /*
-   display: flex;
-   width: 100%;
-   margin: auto;
-
-   /* Horizontal and Vertical centering */
-   /*
-   justify-content: center;
-   align-items: center;
-   border: 5px solid #87b5ff;
-   border-radius: 3px;
-   font-size: 2em;
-   font-family: sans-serif;
-   font-weight: bold;
-   background-color: #1c57b5;
-}
-
-.img-container {
-       display: grid;
-       grid-template-columns: repeat(5, 5fr);
-       grid-template-rows: repeat(5, 5fr);
-       grid-gap: 2em;
-       grid-auto-flow: column dense;
-   }
-
-   
-.item:nth-child(3n) {
-       grid-column: span 4;
-       background-color: #12cc12;
-   }
-
-   .item:nth-child(5n) {
-       grid-column: span 3;
-       background-color: #f5ecec;
-   }
-
-   .item:nth-child(7n) {
-       grid-column: span 2;
-       background-color: #f35810;
-   }
-   */
 h5 {
   font-size: 2em;
   text-align: center;
   font-weight: 400;
   justify-content: center;
-}
+}/*
    /*IMAGE GRID ATTEMPT TWO*/
 .grid-container div {
     display: flex;
@@ -343,6 +292,8 @@ h5 {
     grid-column: span 2;
     grid-row: span 2;
 }
+
+/*Styling start of Case Studies*/
 
 /*---MEDIA QUERIES GO HERE!! --*/
 @media (max-width: 992px) {
