@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,700&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  color: #222;
+  background-color: #fffdd0;
+}
+p {
+  font-family: 'Merriweather', serif;
+  margin: auto 22px auto 22px;
+}
+h3 {
+    text-align: center;
+}
+.navbar {
+  text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-nav li {
+  padding: right 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.display-4 {
+  position: relative;
+  top: 20%;
+  transform: translateY(-50%);
+  font-size: 4em;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 1px 15px #000;
+  margin: 20px auto 20px auto;
+  
+  text-align: center;
+}
+
+.lead {
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+  margin-top: 40px;
+  text-align: center;
+}
+
+/*Button styling import from main*/
+.buttonHolder {
+    text-align: center;
+}
+.btn-primary {
+  background-color: #6648B1;
+  border: 1px solid #6648B1;
+}
+.btn-primary:hover {
+  background-color: #563d7C;
+  border: 1px solid #563d7C;
+  cursor: pointer;
+}
+.btn-outline-secondary {
+    background-color: #6648B1;
+    border: 1px solid #6648B1;
+    color: white;
+}
+.btn-outline-secondary:hover {
+    background-color: #563d7C;
+    border: 1px solid #563d7C;
+    cursor: pointer;
+}
+
+hr {
+    border-top: 2px solid #B4B4B4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+/*  MEDIA QUERIES FOR LATER*/
+@media (max-width: 992px) {
+    .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+
+  }
+@media (max-width: 768px) {
+   .carousel-caption {
+      top: 45%;
+    }
+    .carousel-caption h1 {
+      font-size: 3.5em;
+    }
+    .carousel-caption h3 {
+      font-size: 1.4em;
+      font-weight: 400;
+      padding-bottom: .2rem;
+    }
+    .carousel-caption .btn {
+      font-size: .95em;
+      padding: 8px 14px;
+    }
+
+    .display-4 {
+      font-size: 2em;
+    }
+    .social a {
+      font-size: 2.5em;
+      padding: 1.2rem;
+}
+}
+@media (max-width: 576px) {
+    /*.carousel-caption {
+  top: .4em;
+    }*/
+  .carousel-caption h1 {
+  font-size: 2.5em;
+}
