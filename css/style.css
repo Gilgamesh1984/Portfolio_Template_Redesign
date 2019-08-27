@@ -107,6 +107,7 @@ height: 100%;
 width: 100%;
 height: auto;
 padding-left: 40px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .fa-code {
   color: #e54d26; 
@@ -173,6 +174,7 @@ padding-left: 40px;
 
 .profile {
   width: 100%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .card {
@@ -181,6 +183,7 @@ padding-left: 40px;
   height: 520px;
   background-color:whitesmoke;
   display: flex;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .card-block {
