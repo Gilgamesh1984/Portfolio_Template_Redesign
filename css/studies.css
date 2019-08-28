@@ -87,6 +87,11 @@ hr {
     margin-bottom: 1rem;
 }
 
+.textblock {
+  text-align: center;
+  width: 100%;
+}
+
 /*  MEDIA QUERIES FOR LATER*/
 @media (max-width: 992px) {
     .social a {
@@ -126,4 +131,5 @@ hr {
     }*/
   .carousel-caption h1 {
   font-size: 2.5em;
+}
 }

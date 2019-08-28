@@ -46,6 +46,9 @@ height: 100%;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
+.fa-download {
+  margin-right: 10px;
+}
 /*SECOND CAROUSEL TEST*/
 .hero-text {
   display: block;
@@ -59,6 +62,9 @@ height: 100%;
   text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;
 
+}
+form {
+  display: inline-block;
 }
 
 .btn-primary {
@@ -106,8 +112,9 @@ height: 100%;
 .img-fluid {
 width: 100%;
 height: auto;
-padding-left: 40px;
+padding: 15px;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+background-color: #B4B4B4;
 }
 .fa-code {
   color: #e54d26; 
@@ -243,6 +250,12 @@ hr.light-100 {
 
 .about-text {
   padding-right: 50px;
+}
+/*CASE STUDIES NAVBAR*/
+.dropdown-menu {
+  position: absolute !important;
+  bottom: 0px !important;
+  width: fit-content;
 }
 
 /*START OF PAGE TWO IMAGE GRID CSS*/
