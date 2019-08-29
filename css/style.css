@@ -19,6 +19,10 @@ p {
     letter-spacing: .1rem;
     background: rgba(0, 0, 0, 0.6)!important;
 }
+.navbar-brand {
+  height: 76px;
+  padding: 0px;
+}
 .navbar-nav li {
   padding: right 20px;
 }
@@ -54,7 +58,7 @@ height: 100%;
 /*CASE STUDIES NAVBAR*/
 .dropdown-menu {
   width: fit-content;
-  margin-top: 20px;
+  margin-top: 30px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: .9rem;
