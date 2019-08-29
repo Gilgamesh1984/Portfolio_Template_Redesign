@@ -104,12 +104,13 @@ hr {
     margin-bottom: 1rem;
 }
 
-.imgblock {
+.imgblock img {
   text-align: center;
   width: 100%;
-  display: block;
+  height: 100%;
+  position: relative;
   justify-content: center;
-  margin: 0 auto;
+  margin: 96px auto;
 }
 /*CONTENT STYLING*/
 .display-5 {
