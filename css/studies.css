@@ -104,10 +104,25 @@ hr {
     margin-bottom: 1rem;
 }
 
-.textblock {
+.imgblock {
   text-align: center;
   width: 100%;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
 }
+/*CONTENT STYLING*/
+.display-5 {
+  font-size: 160%;
+  color: black;
+}
+
+.content {
+  font-size: 1em;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+}
+
 
 /*  MEDIA QUERIES FOR LATER*/
 @media (max-width: 992px) {
