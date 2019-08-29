@@ -130,7 +130,17 @@ figcaption {
   font-style: italic;
   font-size: .8em;
   margin-bottom: 44px;
+  text-align: left;
+}
+.imgblock2 img {
   text-align: center;
+  width: 48.5%;
+  height: 48.5%;
+  position: relative;
+  justify-content: space-between;
+  margin-top: 44px;
+  margin-bottom: 0px;
+  padding: 0px 38px 0px 38px;
 }
 
 
