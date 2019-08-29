@@ -10,6 +10,8 @@ html, body {
 p {
   font-family: 'Merriweather', serif;
 }
+/*NAVBAR STYLING */
+
 .navbar {
   text-transform: uppercase;
     font-weight: 700;
@@ -49,6 +51,21 @@ height: 100%;
 .fa-download {
   margin-right: 10px;
 }
+/*CASE STUDIES NAVBAR*/
+.dropdown-menu {
+  width: fit-content;
+  margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+    color: white !important;
+}
+.dropdown-menu:hover {
+  background-color: rgba(0, 0, 0, 0.6)!important;
+}
+
 /*SECOND CAROUSEL TEST*/
 .hero-text {
   display: block;
@@ -251,12 +268,7 @@ hr.light-100 {
 .about-text {
   padding-right: 50px;
 }
-/*CASE STUDIES NAVBAR*/
-.dropdown-menu {
-  position: absolute !important;
-  bottom: 0px !important;
-  width: fit-content;
-}
+
 
 /*START OF PAGE TWO IMAGE GRID CSS*/
 .clients img {
