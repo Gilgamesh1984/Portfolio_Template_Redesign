@@ -72,28 +72,31 @@ h3 {
   margin-top: 40px;
   text-align: center;
 }
+.btn {
+  text-transform: uppercase;
+}
 
 /*Button styling import from main*/
 .buttonHolder {
     text-align: center;
 }
 .btn-primary {
-  background-color: #6648B1;
-  border: 1px solid #6648B1;
+  background-color: #32cd32;
+  border: 1px solid #32cd32;
 }
 .btn-primary:hover {
-  background-color: #563d7C;
-  border: 1px solid #563d7C;
+  background-color: #196619;
+  border: 1px solid #196619;
   cursor: pointer;
 }
 .btn-outline-secondary {
-    background-color: #6648B1;
-    border: 1px solid #6648B1;
+    background-color: #32cd32;
+    border: 1px solid #32cd32;
     color: white;
 }
 .btn-outline-secondary:hover {
-    background-color: #563d7C;
-    border: 1px solid #563d7C;
+    background-color: #196619;
+    border: 1px solid #196619;
     cursor: pointer;
 }
 

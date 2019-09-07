@@ -69,6 +69,13 @@ height: 100%;
 .dropdown-menu:hover {
   background-color: rgba(0, 0, 0, 0.6)!important;
 }
+a.dropdown-item {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6)!important;
+}
+.dropdown-submenu {
+  margin-top: 102px;
+}
 
 /*SECOND CAROUSEL TEST*/
 .hero-text {
@@ -89,24 +96,23 @@ form {
 }
 
 .btn-primary {
-  background-color: #6648B1;
-  border: 1px solid #6648B1;
+  background-color: #32cd32;
+  border: 1px solid #32cd32;
 }
 .btn-primary:hover {
-  background-color: #563d7C;
-  border: 1px solid #563d7C;
+  background-color: #196619;
+  border: 1px solid #196619;
   cursor: pointer;
 }
 .btn-outline-secondary {
-    background-color: #6648B1;
-    border: 1px solid #6648B1;
+    background-color: #32cd32;
+    border: 1px solid #32cd32;
     color: white;
 }
 .btn-outline-secondary:hover {
-    background-color: #563d7C;
-    border: 1px solid #563d7C;
+    background-color: #196619;
+    border: 1px solid #196619;
     cursor: pointer;
-
 }
 
 .jumbotron {
