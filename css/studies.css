@@ -118,13 +118,13 @@ hr {
   padding: 0px 38px 0px 38px;
 }
 /*CONTENT STYLING*/
-.display-5 {
+h1 .display-5 {
   font-size: 160%;
   color: black;
 }
 
 .content {
-  font-size: 1em;
+  font-size: 1.2em;
   text-align: left;
   font-family: 'Merriweather', serif;
 }
@@ -136,14 +136,24 @@ figcaption {
   text-align: left;
 }
 .imgblock2 img {
-  text-align: center;
   width: 48.5%;
-  height: 48.5%;
+  height: auto;
   position: relative;
-  justify-content: space-between;
   margin-top: 44px;
   margin-bottom: 0px;
   padding: 0px 38px 0px 38px;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
