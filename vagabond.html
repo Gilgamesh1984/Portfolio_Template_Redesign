@@ -212,6 +212,17 @@
 			</div>
 		</div>
 	</div>
+	<img id="myImg" src="img/vagabond_overview.jpg" alt="Vagabond Overfiew" style="width:100%; max-width: 800px;">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="increase">
+  <div id="caption">There should be a picture come up here above this text</div>
+</div>
+
+<br>
+
 	<div class="imgblock2">
 		<img src="img/vb_userflow_3.jpg" alt="Userflow v3" style="width:100%">
 	</div>
@@ -292,7 +303,28 @@
 			</div>
 		</div>
 	</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
 
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("increase");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
 </body>
 
 </html>
