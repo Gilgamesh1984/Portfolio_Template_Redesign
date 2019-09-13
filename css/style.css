@@ -9,6 +9,8 @@ html, body {
 }
 p {
   font-family: 'Merriweather', serif;
+  margin-right: 60px;
+  padding: 0;
 }
 /*NAVBAR STYLING */
 
@@ -209,6 +211,8 @@ background-color: #B4B4B4;
   width: 100%;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
+
 
 .card {
   margin-bottom: 25px !important;

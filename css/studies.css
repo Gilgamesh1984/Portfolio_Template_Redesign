@@ -9,7 +9,7 @@ html, body {
 }
 p {
   font-family: 'Merriweather', serif;
-  margin: auto 22px auto 22px;
+  margin: 0 auto;
 }
 h3 {
     text-align: center;
@@ -102,7 +102,7 @@ h3 {
 
 hr {
     border-top: 2px solid #B4B4B4;
-    width: 95%;
+    width: 100%;
     margin-top: .3rem;
     margin-bottom: 1rem;
 }
@@ -128,7 +128,7 @@ h1 .display-5 {
   font-family: 'Merriweather', serif;
 }
 figcaption {
-  padding-left: 44px;
+  padding-left: 0px;
   font-style: italic;
   font-size: .8em;
   margin-bottom: 44px;
@@ -236,6 +236,31 @@ figcaption {
   text-decoration: none;
   cursor: pointer;
 }
+
+/*FOOTER BIT*/
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #d5d5d5;
+}
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
