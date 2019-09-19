@@ -171,7 +171,7 @@ h2.display-5 {
   height: 75px;
   width: auto;
   margin-top: -30px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   z-index: -1;
   background-color: #30d672;
 }
@@ -180,7 +180,7 @@ h2.display-5 {
   height: 75px;
   width: auto;
   margin-top: -30px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   z-index: -1;
   background-color: #0C5C75;
 }
@@ -316,6 +316,20 @@ hr.light-100 {
   width: 100%;
   margin-top: .8rem;
   margin-bottom: 1rem;
+}
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-linkedin {
+  color: #0077B5;
+}
+.fa-facebook:hover, .fa-linkedin:hover, .fa-google-plus-g:hover, .fa-reddit:hover, .fa-behance:hover {
+  color: #d5d5d5;
 }
 
 
