@@ -112,14 +112,46 @@ hr {
   height: 100%;
   position: relative;
   justify-content: center;
-  margin-top: 44px;
   margin-bottom: 0px;
-  padding: 0px 38px 0px 38px;
 }
 /*CONTENT STYLING*/
 h1 .display-5 {
   font-size: 160%;
   color: black;
+  text-align: center;
+}
+
+.underline {
+  width: 95%;
+  height: 2px;
+  background-color: #32cd32;
+  margin-bottom: 8px;
+}
+
+.whitebox {
+  height: auto;
+  width: auto;
+  background-color: white;
+  box-shadow: 10px 10px 5px grey;
+  padding: 20px;
+  margin: 40px;
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+  padding: 0px 20px 0px 20px;
+  margin-top: 40px;
+  position: relative;
+
+}
+
+.style-block1 {
+  height: 75px;
+  width: auto;
+  margin-top: -30px;
+  margin-bottom: 40px;
+  z-index: -1;
+  background-color: #30d672;
 }
 
 .content {
@@ -148,12 +180,6 @@ figcaption {
   padding: 5px;
 }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 
 /*IMAGE MODAL SCRATCH PAD TEST*/
