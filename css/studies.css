@@ -115,10 +115,19 @@ hr {
   margin-bottom: 0px;
 }
 /*CONTENT STYLING*/
-h1 .display-5 {
+h1.display-1 {
+  text-align: center;
+  font-size: 2.2em;
+  color: black;
+  text-shadow: #32cd32;
+
+}
+
+h2.display-5 {
   font-size: 160%;
   color: black;
-  text-align: center;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .row {
