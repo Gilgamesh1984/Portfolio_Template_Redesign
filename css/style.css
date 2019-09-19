@@ -69,8 +69,9 @@ height: 100%;
     background: rgba(0, 0, 0, 0.6)!important;
     color: white !important;
 }
-.dropdown-menu:hover {
+.dropdown-item:hover {
   background-color: rgba(0, 0, 0, 0.6)!important;
+  color: #32cd32 !important;
 }
 a.dropdown-item {
   color: white;

@@ -14,12 +14,18 @@ p {
 h3 {
     text-align: center;
 }
+/*CASE STUDIES NAVBAR*/
 .navbar {
   text-transform: uppercase;
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
     background: rgba(0, 0, 0, 0.6)!important;
+    padding: 2px;
+}
+.navbar-brand {
+  height: 76px;
+  padding: 0px;
 }
 .navbar-nav li {
   padding: right 20px;
@@ -27,10 +33,10 @@ h3 {
 .nav-link {
   font-size: 1.1em !important;
 }
-/*CASE STUDIES NAVBAR*/
+
 .dropdown-menu {
   width: fit-content;
-  margin-top: 20px;
+  margin-top: 30px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: .9rem;
@@ -38,11 +44,13 @@ h3 {
     background: rgba(0, 0, 0, 0.6)!important;
     color: white !important;
 }
-.dropdown-menu:hover {
+.dropdown-item:hover {
   background-color: rgba(0, 0, 0, 0.6)!important;
+  color: #32cd32 !important;
 }
-.dropdown-menu:active {
-  color: red;
+a.dropdown-item {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6)!important;
 }
 
 /*Jumbotron and Display Styling*/
