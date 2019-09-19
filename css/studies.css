@@ -121,6 +121,10 @@ h1 .display-5 {
   text-align: center;
 }
 
+.row {
+  padding: 0;
+  margin: 0;
+}
 .underline {
   width: 95%;
   height: 2px;
