@@ -168,6 +168,15 @@ h2.display-5 {
   background-color: #30d672;
 }
 
+.style-block2 {
+  height: 75px;
+  width: auto;
+  margin-top: -30px;
+  margin-bottom: 40px;
+  z-index: -1;
+  background-color: #0C5C75;
+}
+
 .content {
   font-size: 1.2em;
   text-align: left;
